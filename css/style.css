@@ -22,3 +22,7 @@ img{
     object-fit: cover;
     object-position: center;
 }
+/* text-align to the center */
+:is(h2){
+    text-align: center;
+}
