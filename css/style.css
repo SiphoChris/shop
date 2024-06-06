@@ -11,7 +11,7 @@
 }
 /* nav bar */
 .navbar{
-
+    
     & img[alt='logo']{
         width: 5rem
     }
@@ -25,4 +25,12 @@ img{
 /* text-align to the center */
 :is(h2){
     text-align: center;
+}
+/* layout */
+body{
+    display: grid;
+}
+/* number of rows */
+body{
+    grid-template-rows: auto minmax(100%, 100dvh) auto;
 }
